@@ -1,28 +1,51 @@
-package com.example.buysell.models;
+package com.example.buysell.data;
 
-import com.example.buysell.models.enums.Role;
+import com.example.buysell.data.enums.Role;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
 import java.util.*;
 
+
+
+/** Класс описывающий сущность User
+ * @author Dmytro Tatarynov <dmytro.course@gmail.com>
+ * @version 3.0
+ * @see Role
+ * @see Product
+ * */
+
 @Entity
 @Table(name = "users")
 public class User implements UserDetails {
+
+    /** Поле индификатора */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    /** Поле email и так же является именем пользователя */
     @Column(unique = true, updatable = false)
     private String email;
+
+    /** Номер телефона */
     private String phoneNumber;
+    /** Поле имени пользователя */
     private String name;
 
+    /** Поле аватарки */
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn
     private Image avatar;
+
+    /** Поле признак активности */
     private boolean active;
+
+    /** Поле кода активации */
     private String activationCode;
+
+    /** Признак пароля */
     @Column(length = 1000)
     private String password;
 

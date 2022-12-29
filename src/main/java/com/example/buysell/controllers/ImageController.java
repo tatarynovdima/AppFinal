@@ -1,6 +1,6 @@
 package com.example.buysell.controllers;
 
-import com.example.buysell.models.Image;
+import com.example.buysell.data.Image;
 import com.example.buysell.repositories.ImageRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.InputStreamResource;

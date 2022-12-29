@@ -1,19 +1,39 @@
-package com.example.buysell.models;
+package com.example.buysell.data;
 
 import javax.persistence.*;
+
+/** Класс описывающий сущность Image
+ * @author Dmytro Tatarynov <dmytro.course@gmail.com>
+ * @version 3.0
+ * */
+
 
 @Entity
 @Table(name = "images")
 public class Image {
+    /** Поле индификатора */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    /** Поле имени файла */
     private String name;
+
+    /** Поле имени файла */
     private String originalFileName;
+
+    /** Поле размера файла */
     private Long size;
+
+    /** Поле расширение файла */
     private String contentType;
+
+    /** Поле заглавной картинки для продукта */
     private boolean previewImage;
+
+    /** Поле массива байтов для картинки */
     @Lob
+    //@Column(columnDefinition = "LONGBLOB")
     private byte[] bytes;
     @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER)
     private Product product;

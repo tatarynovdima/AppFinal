@@ -1,7 +1,7 @@
 package com.example.buysell.controllers;
 
-import com.example.buysell.models.Product;
-import com.example.buysell.models.User;
+import com.example.buysell.data.Product;
+import com.example.buysell.data.User;
 import com.example.buysell.services.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;

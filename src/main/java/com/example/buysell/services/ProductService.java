@@ -1,8 +1,8 @@
 package com.example.buysell.services;
 
-import com.example.buysell.models.Image;
-import com.example.buysell.models.Product;
-import com.example.buysell.models.User;
+import com.example.buysell.data.Image;
+import com.example.buysell.data.Product;
+import com.example.buysell.data.User;
 import com.example.buysell.repositories.ProductRepository;
 import com.example.buysell.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
