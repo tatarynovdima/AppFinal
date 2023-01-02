@@ -1,6 +1,6 @@
-package com.example.buysell.repositories;
+package com.example.appfinaltask.repositories;
 
-import com.example.buysell.data.Image;
+import com.example.appfinaltask.data.Image;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /** Интерфейс ImageRepository реализующий взаимодействие с классом Image

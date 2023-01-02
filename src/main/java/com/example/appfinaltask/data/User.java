@@ -1,6 +1,6 @@
-package com.example.buysell.data;
+package com.example.appfinaltask.data;
 
-import com.example.buysell.data.enums.Role;
+import com.example.appfinaltask.data.enums.Role;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

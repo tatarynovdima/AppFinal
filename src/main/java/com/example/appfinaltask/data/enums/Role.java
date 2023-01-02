@@ -1,4 +1,4 @@
-package com.example.buysell.data.enums;
+package com.example.appfinaltask.data.enums;
 
 import org.springframework.security.core.GrantedAuthority;
 

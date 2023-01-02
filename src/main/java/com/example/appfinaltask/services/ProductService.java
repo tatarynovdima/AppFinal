@@ -1,10 +1,10 @@
-package com.example.buysell.services;
+package com.example.appfinaltask.services;
 
-import com.example.buysell.data.Image;
-import com.example.buysell.data.Product;
-import com.example.buysell.data.User;
-import com.example.buysell.repositories.ProductRepository;
-import com.example.buysell.repositories.UserRepository;
+import com.example.appfinaltask.data.Image;
+import com.example.appfinaltask.data.Product;
+import com.example.appfinaltask.data.User;
+import com.example.appfinaltask.repositories.ProductRepository;
+import com.example.appfinaltask.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

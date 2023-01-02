@@ -1,7 +1,7 @@
-package com.example.buysell.controllers;
+package com.example.appfinaltask.controllers;
 
-import com.example.buysell.data.User;
-import com.example.buysell.services.UserService;
+import com.example.appfinaltask.data.User;
+import com.example.appfinaltask.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

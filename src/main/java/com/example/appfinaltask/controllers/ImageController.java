@@ -1,7 +1,7 @@
-package com.example.buysell.controllers;
+package com.example.appfinaltask.controllers;
 
-import com.example.buysell.data.Image;
-import com.example.buysell.repositories.ImageRepository;
+import com.example.appfinaltask.data.Image;
+import com.example.appfinaltask.repositories.ImageRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.MediaType;

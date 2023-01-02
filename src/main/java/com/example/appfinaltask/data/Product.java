@@ -1,4 +1,4 @@
-package com.example.buysell.data;
+package com.example.appfinaltask.data;
 
 import lombok.Data;
 

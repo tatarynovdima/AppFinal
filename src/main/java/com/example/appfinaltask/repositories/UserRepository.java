@@ -1,6 +1,6 @@
-package com.example.buysell.repositories;
+package com.example.appfinaltask.repositories;
 
-import com.example.buysell.data.User;
+import com.example.appfinaltask.data.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

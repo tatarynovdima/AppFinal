@@ -11,10 +11,10 @@
     <groupId>com.example</groupId>
     <artifactId>AppFinalTask</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>com.example.buysell</name>
-    <description>Clone Avito</description>
+    <name>com.example.appfinaltask</name>
+    <description>OLX dmytro edition</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
